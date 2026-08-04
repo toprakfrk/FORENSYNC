@@ -1,0 +1,35 @@
+# ==========================================
+# Python sanal ortamı
+# ==========================================
+.venv/
+# ==========================================
+# Python cache / derlenmiş dosyalar
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+# ==========================================
+# PyInstaller build çıktıları
+# ==========================================
+build/
+dist/
+# ==========================================
+# Installer (Inno Setup)
+# Açık kaynak proje için installer paylaşılmıyor.
+# İsteyen kendi installer.iss dosyasını yazıp
+# kendi kurulum paketini kendisi oluşturabilir.
+# ==========================================
+installer/
+Output/
+# ==========================================
+# Çalışma zamanı logları
+# (logger.py ve __init__.py hariç, sadece .log dosyaları)
+# ==========================================
+logs/runtime/*.log
+dist/logs/runtime/*.log
+# ==========================================
+# NOT: resources/win/ altındaki .exe ve .dll dosyaları
+# build çıktısı DEĞİL, projenin çalışması için gereken
+# harici araçlardır (ewfacquire.exe, libewf.dll vb.)
+# Bu yüzden buraya ignore kuralı EKLENMEDİ, repoya girmeli.
+# ==========================================
