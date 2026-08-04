@@ -28,12 +28,7 @@ profesyonel bir masaüstü uygulamasıdır.
 - **6 formatta rapor**: TXT, PDF, JSON, HTML, CSV, XML (chain-of-custody).
 - **NTP** ile zaman doğrulama; **RSA** ile dijital imza.
 - **Oturum ID'li** eksiksiz log altyapısı.
-
-## Ekran görüntüsü (mimari)
-
-Uygulama üç katmandan oluşur — üstte marka şeridi, solda görev sekmeleri
-+ numaralı adım rozetleri, sağda sabit **DURUM** paneli (canlı log + ilerleme).
-
+  
 ## Kurulum (Geliştirme)
 
 Python **3.10+** gereklidir.
